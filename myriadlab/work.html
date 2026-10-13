@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work - MyriaLab</title>
+<meta name="description" content="MyriaLab is a software development company exploring the myriad of what's next. A few of the branches that made it to production.">
+<link rel="icon" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<noscript><style>
+  .kicker, .page-header h1, .lede{ opacity:1 !important; animation:none !important; transform:none !important; }
+  .hero-graphic, .hero-graphic *{ animation:none !important; }
+  .hero-graphic line{ stroke-dashoffset:0 !important; }
+  .hero-graphic circle{ opacity:1 !important; transform:none !important; }
+  .reveal{ opacity:1 !important; transform:none !important; }
+</style></noscript>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0047FF"/>
+      <stop offset="1" stop-color="#00C2D1"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 200 170" aria-hidden="true">
+        <line x1="30" y1="15" x2="118" y2="78"/>
+        <line x1="170" y1="15" x2="82" y2="78"/>
+        <line x1="78" y1="49" x2="18" y2="66"/>
+        <line x1="122" y1="49" x2="182" y2="66"/>
+        <line x1="118" y1="78" x2="104" y2="128"/>
+        <line x1="82" y1="78" x2="96" y2="128"/>
+        <circle cx="30" cy="15" r="8"/>
+        <circle cx="170" cy="15" r="8"/>
+        <circle cx="18" cy="66" r="6"/>
+        <circle cx="182" cy="66" r="6"/>
+        <circle cx="104" cy="128" r="6"/>
+        <circle cx="96" cy="128" r="6"/>
+      </svg>
+      MyriaLab
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="work.html" aria-current="page">Work</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <header class="page-header">
+    <svg class="hero-graphic" viewBox="0 0 900 600" aria-hidden="true">
+      <line x1="150" y1="550" x2="320" y2="420"/>
+      <line x1="320" y1="420" x2="520" y2="460"/>
+      <line x1="320" y1="420" x2="480" y2="280"/>
+      <line x1="480" y1="280" x2="650" y2="320"/>
+      <line x1="480" y1="280" x2="620" y2="160"/>
+      <line x1="620" y1="160" x2="780" y2="200"/>
+      <line x1="620" y1="160" x2="760" y2="60"/>
+      <line x1="520" y1="460" x2="680" y2="520"/>
+      <line x1="650" y1="320" x2="820" y2="360"/>
+      <circle cx="520" cy="460" r="4"/>
+      <circle cx="650" cy="320" r="4"/>
+      <circle cx="620" cy="160" r="4"/>
+      <circle cx="680" cy="520" r="4"/>
+      <circle cx="820" cy="360" r="4"/>
+      <circle cx="780" cy="200" r="4"/>
+      <circle cx="760" cy="60" r="4"/>
+    </svg>
+    <div class="wrap">
+      <p class="kicker">Work</p>
+      <h1>A few things we've shipped.</h1>
+      <p class="lede">Project names and details below are illustrative placeholders. Swap them for real case studies before launch.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <div class="portfolio-grid">
+        <div class="portfolio-card portfolio-card--featured reveal">
+          <div>
+            <div class="work-tag">Platform Engineering</div>
+            <h3>Northbranch</h3>
+            <p>A workflow engine that lets non-engineers assemble internal tools without filing a ticket. Rebuilt three times before the branching UI model finally stuck.</p>
+          </div>
+          <div class="portfolio-tags">
+            <span>TypeScript</span>
+            <span>Internal Tools</span>
+            <span>Design System</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div>
+            <div class="work-tag">Platform &amp; Infrastructure</div>
+            <h3>Ledgerflow</h3>
+            <p>Reconciliation software for a payments team drowning in spreadsheets. Cut their month-end close from nine days to one afternoon.</p>
+          </div>
+          <div class="portfolio-tags">
+            <span>Go</span>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div>
+            <div class="work-tag">Product Engineering</div>
+            <h3>Fieldglass</h3>
+            <p>Offline-first data collection for teams working without reliable signal in the field.</p>
+          </div>
+          <div class="portfolio-tags">
+            <span>React Native</span>
+            <span>Offline Sync</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card portfolio-card--third reveal">
+          <div>
+            <div class="work-tag">Platform &amp; Infrastructure</div>
+            <h3>Switchyard</h3>
+            <p>A deployment orchestrator for a client running 40-plus microservices that used to step on each other.</p>
+          </div>
+          <div class="portfolio-tags">
+            <span>Kubernetes</span>
+            <span>CI/CD</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card portfolio-card--third reveal">
+          <div>
+            <div class="work-tag">AI-Native Development</div>
+            <h3>Driftcheck</h3>
+            <p>A code review assistant trained on a client's own style guide instead of a generic one.</p>
+          </div>
+          <div class="portfolio-tags">
+            <span>AI-Native</span>
+            <span>Developer Experience</span>
+          </div>
+        </div>
+
+        <div class="portfolio-card portfolio-card--third reveal">
+          <div>
+            <div class="work-tag">Product Engineering</div>
+            <h3>Harborline</h3>
+            <p>A customer portal replacing a decade-old PHP monolith, migrated one feature at a time with no downtime window.</p>
+          </div>
+          <div class="portfolio-tags">
+            <span>Migration</span>
+            <span>Next.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap contact-grid">
+      <h2 class="reveal">Something like this on your list?</h2>
+      <div class="contact-side reveal">
+        <p>Tell us what you're building, or what's stuck. We'll tell you honestly whether we're the right branch for it.</p>
+        <a href="contact.html" class="btn btn-primary">Start a conversation</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 MyriaLab. Exploring the myriad of what's next.</span>
+    <div class="foot-links">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

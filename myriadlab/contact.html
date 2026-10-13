@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - MyriaLab</title>
+<meta name="description" content="Tell MyriaLab what you're building, or what's stuck. We'll tell you honestly whether we're the right branch for it.">
+<link rel="icon" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<noscript><style>
+  .kicker, .page-header h1, .lede{ opacity:1 !important; animation:none !important; transform:none !important; }
+  .hero-graphic, .hero-graphic *{ animation:none !important; }
+  .hero-graphic line{ stroke-dashoffset:0 !important; }
+  .hero-graphic circle{ opacity:1 !important; transform:none !important; }
+  .reveal{ opacity:1 !important; transform:none !important; }
+</style></noscript>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0047FF"/>
+      <stop offset="1" stop-color="#00C2D1"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 200 170" aria-hidden="true">
+        <line x1="30" y1="15" x2="118" y2="78"/>
+        <line x1="170" y1="15" x2="82" y2="78"/>
+        <line x1="78" y1="49" x2="18" y2="66"/>
+        <line x1="122" y1="49" x2="182" y2="66"/>
+        <line x1="118" y1="78" x2="104" y2="128"/>
+        <line x1="82" y1="78" x2="96" y2="128"/>
+        <circle cx="30" cy="15" r="8"/>
+        <circle cx="170" cy="15" r="8"/>
+        <circle cx="18" cy="66" r="6"/>
+        <circle cx="182" cy="66" r="6"/>
+        <circle cx="104" cy="128" r="6"/>
+        <circle cx="96" cy="128" r="6"/>
+      </svg>
+      MyriaLab
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html" class="nav-cta" aria-current="page">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <header class="page-header">
+    <svg class="hero-graphic" viewBox="0 0 900 600" aria-hidden="true">
+      <line x1="700" y1="580" x2="780" y2="460"/>
+      <line x1="780" y1="460" x2="680" y2="360"/>
+      <line x1="780" y1="460" x2="860" y2="340"/>
+      <line x1="680" y1="360" x2="740" y2="240"/>
+      <line x1="860" y1="340" x2="820" y2="220"/>
+      <circle cx="680" cy="360" r="4"/>
+      <circle cx="860" cy="340" r="4"/>
+      <circle cx="740" cy="240" r="4"/>
+      <circle cx="820" cy="220" r="4"/>
+    </svg>
+    <div class="wrap">
+      <p class="kicker">Contact</p>
+      <h1>Tell us what you're building.</h1>
+      <p class="lede">Whether it's a clear brief or a vague itch, we'd rather hear about it early than see it finished.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap contact-grid">
+      <!-- Form has no backend yet: action="#" is a placeholder. Wire this up to a
+           form service (e.g. Formspree) or a server endpoint before launch. -->
+      <form class="contact-form reveal" action="#" method="post">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required placeholder="Your name">
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="What are you building, or what's stuck?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+
+      <div class="contact-side reveal">
+        <p>Prefer email? Write to us directly and we'll reply from a real person, not a ticket queue.</p>
+        <a href="mailto:hello@myrialab.com" class="contact-email">hello@myrialab.com</a>
+        <dl class="contact-meta">
+          <dt>Location</dt>
+          <dd>Global / Remote-first</dd>
+          <dt>LinkedIn</dt>
+          <dd><a href="https://www.linkedin.com/company/myrialab" class="text-link">MyriaLab on LinkedIn</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 MyriaLab. Exploring the myriad of what's next.</span>
+    <div class="foot-links">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
